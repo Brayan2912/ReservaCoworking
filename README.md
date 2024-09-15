@@ -24,7 +24,7 @@ Desplegar la aplicación:
 Haz clic derecho en el proyecto en NetBeans y selecciona Run.
 **Uso
 Página de Inicio
-Accede a la página principal (index.html) para realizar una reserva.
+Accede a la página principal (index.html) para realizar una reserva o por el link http://localhost:8080/ReservaCoworking/index.html)
 Completa el formulario con tu nombre, fecha de reserva, tipo de espacio y duración.
 Procesar Reservas
 El formulario será procesado por el ReservaServlet, que validará los datos y almacenará la reserva en una lista en memoria.
