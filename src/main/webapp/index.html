@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reserva de Espacios</title>
+</head>
+<body>
+    <h1>Reserva tu Espacio</h1>
+    <form action="ReservaServlet" method="post">
+        Nombre del Usuario: <input type="text" name="nombre" required><br>
+        Fecha de Reserva: <input type="date" name="fecha" required><br>
+        Espacio de Trabajo:
+        <select name="espacio" required>
+            <option value="escritorio">Escritorio</option>
+            <option value="sala">Sala de Reuniones</option>
+            <option value="oficina">Oficina Privada</option>
+        </select><br>
+        Duración (en horas): <input type="number" name="duracion" required><br>
+        <input type="submit" value="Reservar">
+    </form>
+</body>
+</html>
